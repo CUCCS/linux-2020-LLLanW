@@ -9,12 +9,12 @@
 ### 1.实验前配置
 
 实验前，需将虚拟机配置双网卡，即添加host-only网络
-![alt text](..\\ubuntu\host网络配置.PNG)
+![alt text](https://github.com/CUCCS/linux-2020-LLLanW/blob/chap01_exp/img/host网络配置.PNG)
 查询虚拟机的ip地址，建立putty连接
-![alt text](..\\ubuntu\putty连接.PNG)
+![alt text](https://github.com/CUCCS/linux-2020-LLLanW/blob/chap01_exp/img/putty连接.PNG)
 
 将iso文件上传到虚拟机中
-![alt text](..\\ubuntu\psftp上传iso.PNG)
+![alt text](https://github.com/CUCCS/linux-2020-LLLanW/blob/chap01_exp/img/psftp上传iso.PNG)
 
 ### 2.创建挂载iso文件的目录
 
@@ -29,7 +29,7 @@
 >mkdir cd
 >rsync -av loopdir/ cd
 
-![alt text](..\\ubuntu\同步光盘内容到目录.PNG)
+![alt text](https://github.com/CUCCS/linux-2020-LLLanW/blob/chap01_exp/img/同步光盘内容到目录.PNG)
 
 ### 5.卸载iso镜像
 
@@ -56,7 +56,7 @@
 定制过程：修改了用户名和密码，修改文件名为ubuntu-server-autoinstall.seed
 
 上传：无法直接上传到目标目录，故先上传到home/lanw后在移动到/preseed中
-![alt text](..\\ubuntu\记得cd。。移动到preseed.PNG)
+![alt text](https://github.com/CUCCS/linux-2020-LLLanW/blob/chap01_exp/img/记得cd。。移动到preseed.PNG)
 
 ### 8.重新生成md5sum.txt
 
@@ -85,17 +85,17 @@
 >sudo apt-get install genisoimage
 
 生成custom.iso
-![alt text](..\\ubuntu\生成custom.PNG)
+![alt text](https://github.com/CUCCS/linux-2020-LLLanW/blob/chap01_exp/img/生成custom.PNG)
 
 ### 9.将custom.iso传送到本地
 
 > \>psftp get custom.iso
-![alt text](..\\ubuntu\传送custom.PNG)
+![alt text](https://github.com/CUCCS/linux-2020-LLLanW/blob/chap01_exp/img/传送custom.PNG)
 
 ## 实验结果
 
 手动enter后，成功进行无人值守自动安装
-![alt text](..\\ubuntu\成功.PNG)
+![alt text](https://github.com/CUCCS/linux-2020-LLLanW/blob/chap01_exp/img/成功.PNG)
 
 ## 实验问题
 
