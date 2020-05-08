@@ -1,0 +1,21 @@
+统计不同年龄区间范围
+age     count   porpotion
+<20     9       0.01
+20-30   600     0.81
+>30     128     0.17
+
+统计不同场上位置的球员
+position        count   porpotion
+Goalie  96      0.13
+Defender        236     0.32
+Midfielder      268     0.36
+Forward 135     0.18
+Défenseur       1       0.00
+
+输出名字最长和最短的球员
+名字最长的球员是 Francisco Javier Rodriguez
+名字最短的球员是 Jô
+
+输出年龄最大和最小的球员
+年龄最大的球员是 Faryd Mondragon 年龄为 42
+年龄最小的球员是 Fabrice Olinga 年龄是 18
