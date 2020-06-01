@@ -152,15 +152,15 @@ windows10
 
   * 生成并编辑db.cuc.edu.cn文件：`sudo cp /etc/bind/db.local /etc/bind/db.cuc.edu.cn`
     >sudo vim /etc/bind/db.cuc.edu.cn
-    ;
-    ; BIND data file for local loopback interface
-    ;
-    $TTL    604800
-    ;@      IN      SOA     localhost. root.localhost.(
-
-    @       IN      SOA     cuc.edu.cn. admin.cuc.edu.cn. (
-                                2         ; Serial
-                            604800         ; Refresh
+    >;
+    >; BIND data file for local loopback interface
+    >;
+    >$TTL    604800
+    >;@      IN      SOA     localhost. root.localhost.(
+  >
+  >    @       IN      SOA     cuc.edu.cn. admin.cuc.edu.cn. (
+  >                                2         ; Serial
+                           604800         ; Refresh
                             86400         ; Retry
                             2419200         ; Expire
                             604800 )       ; Negative Cache TTL
